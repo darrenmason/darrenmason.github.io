@@ -1,0 +1,60 @@
+body { margin: 0px; background: #bebebe; overflow-x: hidden; }
+.info a:link, a:active, a:visited { color: whitesmoke; text-decoration: underline; text-transform: capitalize; font-family: "Consolas", monospace !important; font-size: 1em; }
+.info a:hover { color: whitesmoke; text-decoration: none; text-transform: capitalize; font-family: monospace; }
+#header { margin-left: 100px; }
+@media screen and (max-width: 1000px) {
+
+	#header { margin-left: 0px; }
+	.title {margin-left: 0px !important; font-size: 4em !important;}
+	.subtitle {margin-left: 0px !important;}
+	.subheader {margin-left: 0px !important;}
+	#tabs {margin-left: 0px !important;}
+
+	#content { margin-left: 0px !important;width: 680px !important;}
+	.site {width: 682px !important;}
+	.info {width : 472px !important; float: left !important;}
+
+
+}
+@media screen and (max-width: 733px) {
+
+	#header { margin-left: 0px; }
+	.title {margin-left: 0px !important; font-size: 4em !important;}
+	.subtitle {margin-left: 0px !important; font-size: 1.7em !important;}
+	.subheader {margin-left: 0px !important;font-size: 1em !important;}
+	#tabs {margin-left: 0px !important;}
+
+	#content { margin-left: 0px !important;width: 434px !important;}
+	.site {width: 437px !important;}
+	.info {width : 227px !important; float: left !important; font-size: .8em !important;}
+
+}
+
+.light-grey{background-color: #999;}
+.dark-grey{background-color: #888;}
+#vertbar { display: none; background-color: #333; width: 95px; float: left; top: 0px; position: absolute; z-index: -1; border-right: 1px solid #000; }
+#tabs { margin-left: 350px; margin-top: 20px; width: 600px; height: 28px; padding-top: 5px; }
+#content { background-color: #B3B3B3; margin-top: 40px; width: 800px; height: 100%; margin-left: 140px; border-left: 1px solid #000; border-right: 1px solid #000; -webkit-box-shadow: inset 1px 1px 4px 1px #474747; -moz-box-shadow: inset 1px 1px 4px 1px #474747; box-shadow: inset 1px 1px 4px 1px #474747; }
+#sitelist { padding-top: 1px; padding-bottom: 1px; }
+.title { font-size: 5em; font-family: 'Droid Sans', sans-serif; letter-spacing: .01em; color: #333; }
+.subtitle { display: block; margin-top: 2px; font-size: 2.5em; font-family: 'Droid Sans', sans-serif; color: #333;   padding: 0px 3px 0px 3px; }
+.subheader { font-size: 1.1em; font-family: 'Droid Sans', sans-serif; color: #333; margin-top: 15px; display: block;  margin-left: 150px; font-weight: bold; text-transform: uppercase; padding: 0px 3px 0px 3px; }
+.tab { background-color: #999; padding: 5px 18px 5px 18px; color: #333; font-family: 'Droid Sans', sans-serif; font-size: 1.3em; text-transform: uppercase; border-top: 1px solid #000; border-bottom: 1px solid #000; text-decoration: none; cursor: pointer; }
+.tab_active { background-color: #888; padding: 5px 18px 5px 18px; color: #333; font-family: 'Droid Sans', sans-serif; font-size: 1.3em; text-transform: uppercase; border-top: 1px solid #666; border-bottom: 2px solid #666; }
+.tab:hover { background-color: #888; }
+.featured { width: 800px; height: 250px; margin: 20px; border-right: 3px solid #800000; }
+.featured_thumb { height: 240px; width: 290px; border: 5px solid #69006B; float: left; }
+.featured_info { background-color: #400080; margin-left: 0px; float: right; height: 240px; width: 490px; padding: 5px; color: whitesmoke; font-family: sans-serif; }
+.featured_contact_wrapper { width: 800px; height: 320px; margin: 20px; border-right: 3px solid #800000; }
+.featured_contact { background: #400080 url(/images/dmd_site_contact_grad.jpg) no-repeat top left; margin-left: 0px; float: right; height: 310px; width: 790px; padding: 5px; color: whitesmoke; font-family: sans-serif; }
+.featured_contact a:active, a:visited, a:hover, a:link { color: whitesmoke; text-decoration: none; }
+.site { width: 800px; height: 150px; margin: 20px; border-right: 3px solid #333; }
+.thumb { height: 140px; width: 190px; border: 5px solid #333; float: left; }
+.info { background-color: #888; margin-left: 0px; float: right; height: 140px; width: 590px; padding: 5px; color: whitesmoke; font-family: "Consolas", monospace !important; font-size: .9em; text-transform: lowercase; }
+.slideshow { margin-left: 20px; background-color: red; display: none; }
+.slideshow img { padding: 15px; border: 5px solid #800000; background-color: #4D1656; }
+form { margin-left: 30px; }
+a { text-decoration: none;  }
+#intro { background: #E6E6E6; padding: 10px 10px 10px 10px; font-size: 1.1em; font-family: Georgia; color: #400080; border: 1px solid #CECECE }
+#intro_box { text-shadow: 1px 1px 1px #fff; filter: dropshadow(color=#fff, offx=1, offy=1); width: 800px; margin-left: 140px; margin-top: 30px; }
+span.redirect { unicode-bidi: bidi-override; direction: rtl; display:inline-block; }

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+<site>
+  <thumb>images/ba360.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Bank of America - Business Advantage 360</title>
+  <link>https://promo.bankofamerica.com/businessadvantage360/</link>
+  <info>Led project desktop UI development - Small Business Application using Redux and D3 for Visualization</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/bofa.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Bank of America - Online Banking</title>
+  <link>https://www.bankofamerica.com/</link>
+  <info>Front End Developer - ES6 / Redux</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/tutor-homepage.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Rice University - Openstax Tutor</title>
+  <link>https://openstaxtutor.org/</link>
+  <info>Front End Developer - ReactJS</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/fox.jpg</thumb>
+  <date>12.01.09</date>
+  <title>FOX Sports</title>
+  <link>http://www.foxsports.com</link>
+  <info>Front End Engineer - video player and gallery javascript and css</info>
+  <type>Type again</type>
+</site>
+  <site>
+  <thumb>images/ninjam.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Kawasaki - Ninja Forever Fearless</title>
+  <link>http://www.ninjamotorcycles.com</link>
+  <info>fullscreen HTML5 video experience. angular js</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/la.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Kawasaki Latin America</title>
+  <link>http://www.kawasaki-la.com</link>
+  <info>interactive showroom and international site with multi-language support.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/636.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Kawasaki - Ninja 6R 636</title>
+  <link>http://ninja6r.kawasaki.com</link>
+  <info>Front end coding HTML/CSS/JS.  Interactive Tour Fullscreen HTML5 Video Experience.  Custom scrubbable timeline progress and stop points.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/offroad.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Kawasaki - Offroad Rated</title>
+  <link>http://offroadrated.kawasaki.com</link>
+  <info>Front end coding HTML/CSS/JS.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/zx-sm.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Kawasaki - ZX-14 - Experience the Phenomenon</title>
+  <link>http://ninja14r.kawasaki.com</link>
+  <info>Front end coding HTML/CSS/JS.  Interactive "parallaxing" navigation. Fully ajax with deep linking. Customized for iOS.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/kx.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Kawasaki - KX PROOF</title>
+  <link>http://kx.kawasaki.com</link>
+  <info>Front end coding HTML/CSS/JS.  Interactive "proof wall" with scrolling, ajax search/pagination, dynamic animation. Customized for iOS.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/kawasaki.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Kawasaki.com</title>
+  <link>http://www.kawasaki.com</link>
+  <info>Front/Back end coding HTML/CSS/JS/.NET</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/ddstreet.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Kawasaki - Good Times Street Demo Days</title>
+  <link>http://goodtimesstreetdemodays.kawasaki.com</link>
+  <info>Front end coding HTML/CSS/JS.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/chinaglaze.jpg</thumb>
+  <date>12.01.09</date>
+  <title>China Glaze</title>
+  <link>http://www.chinaglaze.com</link>
+  <info>app to try on 5000 different colors. HTML, CSS, jQuery, dynamic PHP/MySQL product database, Pro user session logins, integrated wordpress blog and social.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/woodys.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Woody's Grooming</title>
+  <link>http://www.woodysgrooming.com</link>
+  <info>HTML, CSS, jQuery, dynamic PHP/MySQL product database, store locator with Google Maps API integration, Pro user session logins, Photoshop for UI elements.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/ardell.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Ardell Lashes</title>
+  <link>http://www.ardelllashes.com</link>
+  <info>HTML, CSS, JavaScript, Joomla, PHP &amp; MySQL used throughout for dynamic population of product pages.</info>
+  <type>Type</type>
+</site>	
+<site>
+  <thumb>images/thumb/seche2_small.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Seche</title>
+  <link>http://www.seche.com</link>
+  <info>HTML, CSS, JavaScript, Photoshop. Site features an Apple-like jQuery scroller for products.  PHP &amp; MySQL used throughout for dynamic population of product pages.</info>
+  <type>Type</type>
+</site>
+<site>
+  <thumb>images/thumb/surgicare_small.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Surgi-Care 123</title>
+  <link>http://www.surgicare123.com</link>
+  <info>HTML, CSS, JavaScript, Photoshop.  PHP/MySQL used throughout for dynamic population of product pages.</info>
+  <type>Type</type>
+</site>
+<site>
+  <thumb>images/thumb/gigi.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Gigi</title>
+  <link>http://gigispa.com</link>
+  <info>HTML, CSS, jQuery, dynamic PHP/MySQL product database, searchable with 100's of SKUs and product shots organized, Pro user session logins, Photoshop for UI elements.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/causecast.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Causecast - Volunteer Widgets</title>
+  <link>http://nonprofit.causecast.org/nonprofit-services</link>
+  <info>HTML, CSS, JavaScript - Interactive map and volunteer opportunities widgets.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/prolacta.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Prolacta Bioscience</title>
+  <link>http://www.prolacta.com</link>
+  <info>HTML, CSS, JavaScript, PHP, MySQL.  Front end updates and back end administration tools.</info>
+  <type>Type again</type>
+</site>
+
+<site>
+  <thumb>images/thumb/fright_night.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Fright Night Cosmetics</title>
+  <link>http://frightnightcosmetics.com</link>
+  <info>HTML, CSS, JavaScript, Photoshop.</info>
+  <type>Type again</type>
+</site>
+<!-->
+<site>
+  <thumb>images/thumb/ibd2.jpg</thumb>
+  <date>12.01.09</date>
+  <title>ibd - Video of beauty show microsite production</title>
+  <link>http://www.youtube.com/watch?v=UbCmizt6HEA</link>
+  <info>The site uses an unique three-panel all AJAX design.  Technologies used:  LAMP, Javascript/jQuery, Photoshop.  Click the link to check out a timelapse video of the production.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/donna.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Donna Mason Hypnotherapy</title>
+  <link>http://www.donnamason.com</link>
+  <info>Hypnotherapist small business with e-commerce. HTML, CSS, jQuery custom animations, Paypal shopping cart, Photoshop.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/lashvids.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Offline</title>
+  <link>#</link>
+  <info>Minisite for instructional vids. HTML, CSS, Flash video, JavaScript, Photoshop.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/ezflow.jpg</thumb>
+  <date>12.01.09</date>
+  <title>ezflow.com</title>
+  <link>http://www.ezflow.com</link>
+  <info>HTML, CSS, JavaScript, Photoshop.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/ibd.jpg</thumb>
+  <date>12.01.09</date>
+  <title>ibdbeauty.com</title>
+  <link>http://www.ibdbeauty.com</link>
+  <info>HTML, CSS, JavaScript, Photoshop.</info>
+  <type>Type again</type>
+</site>-->
+<site>
+  <thumb>images/thumb/supernail.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Supernail</title>
+  <link>http://www.supernail.com</link>
+  <info>HTML, CSS, PHP, MySQL, JavaScript, Photoshop.  Site includes custom PHP MySQL product database and admin panel.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/aiibeauty.jpg</thumb>
+  <date>12.01.09</date>
+  <title>aiibeauty.com</title>
+  <link>http://www.aiibeauty.com</link>
+  <info>Corporate portal site with event calendar. HTML, CSS, jQuery, PHP.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/clean_easy.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Clean &amp; Easy</title>
+  <link>http://www.cleanandeasyspa.com</link>
+  <info>HTML, CSS, jQuery, PHP, Photoshop, 150+ product SKU and photos, UI.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/clubman.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Clubman</title>
+  <link>http://www.clubman.com</link>
+  <info>HTML, CSS, JavaScript, Photoshop.</info>
+  <type>Type again</type>
+</site>
+
+
+
+<!-- <site>
+  <thumb>images/thumb/sensoryrain.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Sensory Rain - Wordpress Blog (offline)</title>
+  <link>javascript:void(0)</link>
+  <info>HTML, CSS, PHP, Wordpress, JavaScript, Photoshop. Customized Wordpress blog engine with Twitter aggregation, gallery.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/cars.jpg</thumb>
+  <date>12.01.09</date>
+  <title>CA-Cars-Import (offline)</title>
+  <link>javascript:void(0)</link>
+  <info>HTML, CSS, JavaScript, Photoshop.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/barrington.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Barrington Manor (offline)</title>
+  <link>javascript:void(0)</link>
+  <info>HTML, CSS, JavaScript, Photoshop.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/califighter.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Califighter (offline)</title>
+  <link>javascript:void(0)</link>
+  <info>HTML, CSS, PHPNuke CMS, Photoshop.  Martial arts social networking site.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/harvbar.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Harvbar Candy Company (offline)</title>
+  <link>javascript:void(0)</link>
+  <info>HTML, CSS, Store w/ Authorize.net Shopping Cart.</info>
+  <type>Type again</type>
+</site>
+<site>
+  <thumb>images/thumb/vp_shot.jpg</thumb>
+  <date>12.01.09</date>
+  <title>Vicious Promotions (offline)</title>
+  <link>javascript:void(0)</link>
+  <info>HTML, CSS, Final Cut Pro (Video Content), Photoshop.</info>
+  <type>Type again</type>
+</site> -->
+
+</xml>

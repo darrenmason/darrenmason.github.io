@@ -1,23 +1,310 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+<head>
+  <title>darren mason - web application development</title>
+  <meta name="author" content="Darren Joseph Mason">
+  <meta name="viewport" content="width=device-width, initial-scale=.6,  maximum-scale=.6">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="global.css" type='text/css'>
+</head>
 
-  <h1 class="page-heading">Posts</h1>
+<body>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div id="header">
+    <span class="title">darren mason</span><br />
+    <span class="subtitle"><span class="light-grey">mason.darren@gmail.com</span></span>
+    <span class="subtitle"><span class="light-grey">web application development</span></span>
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div id="subheader">
+    <span class="subheader"><span class="dark-grey">HTML5 CSS3/LESS/SASS Javascript/Typescript/Coffeescript React
+        Angular Vue npm Webpack</span></span>
+    <span class="subheader"><span class="dark-grey">Nginx Apache NodeJS PHP SQL Jenkins BASH Git Atlassian jQuery</span></span>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div id="tabs">
+    <span class="tab_active">projects</span>
+  </div>
 
-</div>
+  <div id="content">
+    <!-- <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.lowes.com" target="_new"><img
+              src="images/lowes.jpg" border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.lowes.com" target="_new">Lowe's - Workforce Management</a></p>
+          <p></p>
+        </div>
+      </div>
+    </div> -->
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="https://promo.bankofamerica.com/businessadvantage360/" target="_new"><img
+              src="images/ba360.jpg" border="0"></a></div>
+        <div class="info">
+          <p><a href="https://promo.bankofamerica.com/businessadvantage360/" target="_new">Bank of America - Business
+              Advantage 360</a></p>
+          <p>Led project desktop UI development - Small Business Application using Redux and D3 for Visualization</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="https://www.bankofamerica.com/" target="_new"><img src="images/bofa.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="https://www.bankofamerica.com/" target="_new">Bank of America - Online Banking</a></p>
+          <p>Front End Developer - ES6 / Redux</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="https://tutor.openstax.org/" target="_new"><img src="images/tutor-homepage.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="https://tutor.openstax.org/" target="_new">Rice University - Openstax Tutor</a></p>
+          <p>Front End Developer - ReactJS</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.foxsports.com" target="_new"><img src="images/fox.jpg" border="0"></a>
+        </div>
+        <div class="info">
+          <p><a href="http://www.foxsports.com" target="_new">FOX Sports</a></p>
+          <p>Front End Engineer - video player and gallery javascript and css</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.ninjamotorcycles.com" target="_new"><img src="images/ninjam.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.ninjamotorcycles.com" target="_new">Kawasaki - Ninja Forever Fearless</a></p>
+          <p>fullscreen HTML5 video experience. angular js</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.kawasaki-la.com" target="_new"><img src="images/la.jpg" border="0"></a>
+        </div>
+        <div class="info">
+          <p><a href="http://www.kawasaki-la.com" target="_new">Kawasaki Latin America</a></p>
+          <p>interactive showroom and international site with multi-language support.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://ninja6r.kawasaki.com" target="_new"><img src="images/636.jpg" border="0"></a>
+        </div>
+        <div class="info">
+          <p><a href="http://ninja6r.kawasaki.com" target="_new">Kawasaki - Ninja 6R 636</a></p>
+          <p>Front end coding HTML/CSS/JS. Interactive Tour Fullscreen HTML5 Video Experience. Custom scrubbable
+            timeline progress and stop points.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://offroadrated.kawasaki.com" target="_new"><img src="images/offroad.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://offroadrated.kawasaki.com" target="_new">Kawasaki - Offroad Rated</a></p>
+          <p>Front end coding HTML/CSS/JS.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://ninja14r.kawasaki.com" target="_new"><img src="images/zx-sm.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://ninja14r.kawasaki.com" target="_new">Kawasaki - ZX-14 - Experience the Phenomenon</a></p>
+          <p>Front end coding HTML/CSS/JS. Interactive "parallaxing" navigation. Fully ajax with deep linking.
+            Customized for iOS.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://kx.kawasaki.com" target="_new"><img src="images/kx.jpg" border="0"></a></div>
+        <div class="info">
+          <p><a href="http://kx.kawasaki.com" target="_new">Kawasaki - KX PROOF</a></p>
+          <p>Front end coding HTML/CSS/JS. Interactive "proof wall" with scrolling, ajax search/pagination, dynamic
+            animation. Customized for iOS.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.kawasaki.com" target="_new"><img src="images/kawasaki.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.kawasaki.com" target="_new">Kawasaki.com</a></p>
+          <p>Front/Back end coding HTML/CSS/JS/.NET</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://goodtimesstreetdemodays.kawasaki.com" target="_new"><img
+              src="images/ddstreet.jpg" border="0"></a></div>
+        <div class="info">
+          <p><a href="http://goodtimesstreetdemodays.kawasaki.com" target="_new">Kawasaki - Good Times Street Demo
+              Days</a></p>
+          <p>Front end coding HTML/CSS/JS.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.chinaglaze.com" target="_new"><img src="images/chinaglaze.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.chinaglaze.com" target="_new">China Glaze</a></p>
+          <p>app to try on 5000 different colors. HTML, CSS, jQuery, dynamic PHP/MySQL product database, Pro user
+            session logins, integrated wordpress blog and social.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.woodysgrooming.com" target="_new"><img src="images/woodys.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.woodysgrooming.com" target="_new">Woody's Grooming</a></p>
+          <p>HTML, CSS, jQuery, dynamic PHP/MySQL product database, store locator with Google Maps API integration, Pro
+            user session logins, Photoshop for UI elements.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.ardelllashes.com" target="_new"><img src="images/ardell.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.ardelllashes.com" target="_new">Ardell Lashes</a></p>
+          <p>HTML, CSS, JavaScript, Joomla, PHP & MySQL used throughout for dynamic population of product pages.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.seche.com" target="_new"><img src="images/seche2_small.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.seche.com" target="_new">Seche</a></p>
+          <p>HTML, CSS, JavaScript, Photoshop. Site features an Apple-like jQuery scroller for products. PHP & MySQL
+            used throughout for dynamic population of product pages.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.surgicare123.com" target="_new"><img src="images/surgicare_small.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.surgicare123.com" target="_new">Surgi-Care 123</a></p>
+          <p>HTML, CSS, JavaScript, Photoshop. PHP/MySQL used throughout for dynamic population of product pages.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://gigispa.com" target="_new"><img src="images/gigi.jpg" border="0"></a>
+        </div>
+        <div class="info">
+          <p><a href="http://gigispa.com" target="_new">Gigi</a></p>
+          <p>HTML, CSS, jQuery, dynamic PHP/MySQL product database, searchable with 100's of SKUs and product shots
+            organized, Pro user session logins, Photoshop for UI elements.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://nonprofit.causecast.org/nonprofit-services" target="_new"><img
+              src="images/causecast.jpg" border="0"></a></div>
+        <div class="info">
+          <p><a href="http://nonprofit.causecast.org/nonprofit-services" target="_new">Causecast - Volunteer Widgets</a>
+          </p>
+          <p>HTML, CSS, JavaScript - Interactive map and volunteer opportunities widgets.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.prolacta.com" target="_new"><img src="images/prolacta.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.prolacta.com" target="_new">Prolacta Bioscience</a></p>
+          <p>HTML, CSS, JavaScript, PHP, MySQL. Front end updates and back end administration tools.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://frightnightcosmetics.com" target="_new"><img src="images/fright_night.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://frightnightcosmetics.com" target="_new">Fright Night Cosmetics</a></p>
+          <p>HTML, CSS, JavaScript, Photoshop.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.supernail.com" target="_new"><img src="images/supernail.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.supernail.com" target="_new">Supernail</a></p>
+          <p>HTML, CSS, PHP, MySQL, JavaScript, Photoshop. Site includes custom PHP MySQL product database and admin
+            panel.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.aiibeauty.com" target="_new"><img src="images/aiibeauty.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.aiibeauty.com" target="_new">aiibeauty.com</a></p>
+          <p>Corporate portal site with event calendar. HTML, CSS, jQuery, PHP.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.cleanandeasyspa.com" target="_new"><img src="images/clean_easy.jpg"
+              border="0"></a></div>
+        <div class="info">
+          <p><a href="http://www.cleanandeasyspa.com" target="_new">Clean & Easy</a></p>
+          <p>HTML, CSS, jQuery, PHP, Photoshop, 150+ product SKU and photos, UI.</p>
+        </div>
+      </div>
+    </div>
+    <div id="sitelist">
+      <div class="site">
+        <div class="thumb"><a href="http://www.clubman.com" target="_new"><img src="images/clubman.jpg" border="0"></a>
+        </div>
+        <div class="info">
+          <p><a href="http://www.clubman.com" target="_new">Clubman</a></p>
+          <p>HTML, CSS, JavaScript, Photoshop.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+
+</body>
+
+</html>
